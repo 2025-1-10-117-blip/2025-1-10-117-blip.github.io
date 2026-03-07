@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MZ Media Digital — Creative Digital Agency</title>
+  <meta name="description" content="MZ Media Digital — A creative digital agency specializing in web design, branding, and digital marketing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Cursor follower -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-text">
+        <span>M</span><span>Z</span><span>&nbsp;</span><span>M</span><span>E</span><span>D</span><span>I</span><span>A</span>
+      </div>
+      <div class="preloader-bar">
+        <div class="preloader-bar-inner"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-text">MZ</span><span class="logo-dot">.</span><span class="logo-sub">MEDIA</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#services" class="nav-link" data-section="services">Services</a>
+        <a href="#work" class="nav-link" data-section="work">Work</a>
+        <a href="#testimonials" class="nav-link" data-section="testimonials">Reviews</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag reveal-up">
+        <span class="tag-line"></span>
+        <span>Creative Digital Agency</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line reveal-up"><span>We Create</span></span>
+        <span class="title-line reveal-up"><span class="title-highlight">Digital</span> <span>Experiences</span></span>
+        <span class="title-line reveal-up"><span>That Matter</span></span>
+      </h1>
+      <p class="hero-description reveal-up">
+        We are a full-service creative agency crafting stunning digital products, brands, and experiences that drive results.
+      </p>
+      <div class="hero-cta reveal-up">
+        <a href="#work" class="btn btn-primary">
+          <span>View Our Work</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="section-tag reveal-up">
+            <span class="tag-number">01</span>
+            <span>About Us</span>
+          </div>
+          <h2 class="section-title reveal-up">
+            We craft digital <br /><span class="text-gradient">solutions</span> that <br />inspire &amp; engage
+          </h2>
+          <p class="about-text reveal-up">
+            At MZ Media, we believe that great design has the power to transform businesses. Our team of talented designers, developers, and strategists work together to create exceptional digital experiences.
+          </p>
+          <p class="about-text reveal-up">
+            With years of industry experience, we bring creativity and technical expertise to every project, ensuring results that exceed expectations.
+          </p>
+          <div class="about-stats reveal-up">
+            <div class="stat">
+              <span class="stat-number" data-count="150">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal-up">
+          <div class="about-image-wrapper">
+            <div class="about-image">
+              <div class="about-image-placeholder">
+                <div class="placeholder-icon">
+                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="about-float-card">
+              <div class="float-card-icon">★</div>
+              <div class="float-card-text">
+                <strong>Top Rated</strong>
+                <span>Agency 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal-up">
+          <span class="tag-number">02</span>
+          <span>Our Services</span>
+        </div>
+        <h2 class="section-title reveal-up">
+          What we <span class="text-gradient">do best</span>
+        </h2>
+        <p class="section-subtitle reveal-up">
+          We offer a comprehensive range of digital services to help your business thrive in the modern landscape.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Web Design &amp; Development</h3>
+          <p class="service-desc">Beautiful, responsive websites built with modern technologies that captivate your audience and drive conversions.</p>
+          <div class="service-link">
+            <span>Learn More</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" data-delay="100">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Brand Identity</h3>
+          <p class="service-desc">Strategic branding that tells your story and connects with your target audience on a deeper, more meaningful level.</p>
+          <div class="service-link">
+            <span>Learn More</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" data-delay="200">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Digital Marketing</h3>
+          <p class="service-desc">Data-driven marketing strategies that increase your visibility, engagement, and ultimately grow your revenue.</p>
+          <div class="service-link">
+            <span>Learn More</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="6" y="3" width="12" height="18" rx="2"/><path d="M12 18h.01"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Mobile Applications</h3>
+          <p class="service-desc">Native and cross-platform mobile apps that deliver exceptional user experiences on every device.</p>
+          <div class="service-link">
+            <span>Learn More</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" data-delay="400">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+          <p class="service-desc">User-centered design that creates intuitive, enjoyable digital experiences and drives meaningful engagement.</p>
+          <div class="service-link">
+            <span>Learn More</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" data-delay="500">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <h3 class="service-title">SEO Optimization</h3>
+          <p class="service-desc">Technical and content SEO strategies that boost your search rankings and drive organic traffic to your site.</p>
+          <div class="service-link">
+            <span>Learn More</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee Section -->
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee-inner">
+        <span>Web Design</span>
+        <span class="marquee-dot">◆</span>
+        <span>Branding</span>
+        <span class="marquee-dot">◆</span>
+        <span>Development</span>
+        <span class="marquee-dot">◆</span>
+        <span>Marketing</span>
+        <span class="marquee-dot">◆</span>
+        <span>UI/UX</span>
+        <span class="marquee-dot">◆</span>
+        <span>Strategy</span>
+        <span class="marquee-dot">◆</span>
+        <span>Web Design</span>
+        <span class="marquee-dot">◆</span>
+        <span>Branding</span>
+        <span class="marquee-dot">◆</span>
+        <span>Development</span>
+        <span class="marquee-dot">◆</span>
+        <span>Marketing</span>
+        <span class="marquee-dot">◆</span>
+        <span>UI/UX</span>
+        <span class="marquee-dot">◆</span>
+        <span>Strategy</span>
+        <span class="marquee-dot">◆</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work/Portfolio Section -->
+  <section class="section work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal-up">
+          <span class="tag-number">03</span>
+          <span>Our Work</span>
+        </div>
+        <h2 class="section-title reveal-up">
+          Featured <span class="text-gradient">projects</span>
+        </h2>
+        <p class="section-subtitle reveal-up">
+          A selection of our recent work showcasing our creative capabilities.
+        </p>
+      </div>
+      <div class="work-grid">
+        <div class="work-item reveal-up" data-delay="0">
+          <div class="work-image">
+            <div class="work-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              <span>Brand Identity</span>
+            </div>
+            <div class="work-overlay">
+              <div class="work-overlay-content">
+                <h3>Luxe Brand</h3>
+                <p>Brand Identity &amp; Strategy</p>
+                <div class="work-link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="work-item reveal-up" data-delay="100">
+          <div class="work-image">
+            <div class="work-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+              <span>Web Design</span>
+            </div>
+            <div class="work-overlay">
+              <div class="work-overlay-content">
+                <h3>Artisan Coffee</h3>
+                <p>Web Design &amp; Development</p>
+                <div class="work-link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="work-item reveal-up" data-delay="200">
+          <div class="work-image">
+            <div class="work-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+              <span>Mobile App</span>
+            </div>
+            <div class="work-overlay">
+              <div class="work-overlay-content">
+                <h3>FitTrack App</h3>
+                <p>Mobile App Design</p>
+                <div class="work-link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="work-item reveal-up" data-delay="300">
+          <div class="work-image">
+            <div class="work-placeholder" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+              <span>E-Commerce</span>
+            </div>
+            <div class="work-overlay">
+              <div class="work-overlay-content">
+                <h3>Nova Shop</h3>
+                <p>E-Commerce Platform</p>
+                <div class="work-link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal-up">
+          <span class="tag-number">04</span>
+          <span>Testimonials</span>
+        </div>
+        <h2 class="section-title reveal-up">
+          What our <span class="text-gradient">clients</span> say
+        </h2>
+      </div>
+      <div class="testimonials-slider reveal-up">
+        <div class="testimonial-track" id="testimonial-track">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"MZ Media transformed our online presence completely. Their attention to detail and creative vision exceeded our expectations in every way."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">JD</div>
+              <div>
+                <strong>James Davidson</strong>
+                <span>CEO, TechStart Inc.</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Working with MZ Media was a game-changer for our brand. They delivered a stunning website that truly represents who we are."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SK</div>
+              <div>
+                <strong>Sarah Kim</strong>
+                <span>Founder, Bloom Studio</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The team's expertise in both design and development made the entire process seamless. Highly recommend their services to anyone."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">MR</div>
+              <div>
+                <strong>Michael Ross</strong>
+                <span>Director, Apex Solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button class="testimonial-btn" id="prev-btn" aria-label="Previous testimonial">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </button>
+          <div class="testimonial-dots" id="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="testimonial-btn" id="next-btn" aria-label="Next testimonial">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="section-tag reveal-up">
+            <span class="tag-number">05</span>
+            <span>Contact Us</span>
+          </div>
+          <h2 class="section-title reveal-up">
+            Let's start a <br /><span class="text-gradient">project</span> together
+          </h2>
+          <p class="contact-text reveal-up">
+            Ready to bring your vision to life? Get in touch with us and let's discuss how we can help your business grow.
+          </p>
+          <div class="contact-info reveal-up">
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>hello@mzmedia.digital</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Dhaka, Bangladesh</span>
+            </div>
+          </div>
+          <div class="social-links reveal-up">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right reveal-up">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" />
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-text">MZ</span><span class="logo-dot">.</span><span class="logo-sub">MEDIA</span>
+          </a>
+          <p>Crafting exceptional digital experiences that transform businesses and inspire audiences.</p>
+        </div>
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <a href="#services">Web Design</a>
+          <a href="#services">Branding</a>
+          <a href="#services">Marketing</a>
+          <a href="#services">Mobile Apps</a>
+          <a href="#services">SEO</a>
+        </div>
+        <div class="footer-links-col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@mzmedia.digital">hello@mzmedia.digital</a>
+          <a href="#">Dhaka, Bangladesh</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 MZ Media Digital. All rights reserved.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

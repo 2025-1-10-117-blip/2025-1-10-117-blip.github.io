@@ -8,6 +8,8 @@
     var preloader = document.getElementById('preloader');
     if (!preloader) return;
 
+    document.body.style.overflow = 'hidden';
+
     window.addEventListener('load', function () {
       setTimeout(function () {
         preloader.classList.add('hidden');
@@ -398,7 +400,7 @@
 
         if (heroContent) {
           heroContent.style.transform = 'translateY(' + (scrollY * 0.3) + 'px)';
-          heroContent.style.opacity = String(1 - ratio * 0.8);
+          heroContent.style.opacity = 1 - ratio * 0.8;
         }
 
         if (heroGradient) {
@@ -410,7 +412,6 @@
 
   /* ---------- Initialize Everything ---------- */
   function init() {
-    document.body.style.overflow = 'hidden';
     initPreloader();
     initCursor();
     initParticles();
